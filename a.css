@@ -70,6 +70,7 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	padding: 5px 10px;
+	font-size: 25px;
 }
 
 .content .info span {
@@ -169,16 +170,20 @@ h2 {
 
 	.state {
 		width: 100vw;
-		height: 100vh;
+		height: 90vh;
 	}
 
 	.content {
 		width: 65%;
-		height: 55%;
+		height: 65%;
 	}
 
 	h2 {
 		font: bold 27px fantasy;
+	}
+
+	.content .info {
+		font-size: 16px;
 	}
 
 	.content .list li span {
@@ -202,16 +207,20 @@ h2 {
 
 	.state {
 		width: 90vw;
-		height: 100vh;
+		height: 95vh;
 	}
 
 	.content {
 		width: 65%;
-		height: 60%;
+		height: 70%;
 	}
 
 	h2 {
 		font: bold 30px fantasy;
+	}
+
+	.content .info {
+		font-size: 18px;
 	}
 
 	.content .list li span {
@@ -245,6 +254,10 @@ h2 {
 
 	h2 {
 		font: bold 42px fantasy;
+	}
+
+	.content .info {
+		font-size: 20px;
 	}
 
 	.content .list li span {
@@ -282,6 +295,10 @@ h2 {
 		font: bold 45px fantasy;
 	}
 
+	.content .info {
+		font-size: 22px;
+	}
+
 	.content .list li span {
 	    font-size: 8px;
 	}
@@ -316,6 +333,10 @@ h2 {
 
 	h2 {
 		font: bold 50px fantasy;
+	}
+
+	.content .info {
+		font-size: 25px;
 	}
 
 	.content .list li span {
