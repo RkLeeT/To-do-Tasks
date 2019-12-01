@@ -14,3 +14,6 @@ Plain Javascript
 
 6. States of the tasks is persisted, i.e., if we close the application and reopen it, the tasks which are completed and pending remains as it is; 
 which is done by using localStorage.
+
+
+![WEBPAGE](Capture.PNG)
