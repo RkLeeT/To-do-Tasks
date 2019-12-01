@@ -1,8 +1,8 @@
 # To-do-Tasks
 
-**Plain Javascript**
+### Plain Javascript
 
-**View the project: [WEBPAGE](https://rkleet.github.io/To-do-Tasks/a.html)**
+### View the project: [WEBPAGE](https://rkleet.github.io/To-do-Tasks/a.html)
 
 * The application user will see a list of tasks that he has to complete
 
