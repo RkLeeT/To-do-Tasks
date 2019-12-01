@@ -215,14 +215,17 @@ h2 {
     	height: 60%;
 	}
 	.content .info {
-		font-size: 18px;
-		height: 8%;
+		font-size: 20px;
+	    height: 7%;
 	}
 	.content .list {
-		height: 81%;
+		height: 84%;
 	}
 	.content .list li span {
 	    font-size: 2px;
+	}
+	.content .add {
+	    padding: 7px 5px;
 	}
 	.content .add input {
 		font-size: 13px;
@@ -248,10 +251,17 @@ h2 {
     	height: 65%;
 	}
 	.content .info {
-		font-size: 20px;
+		font-size: 21px;
+		height: 7%;
+	}
+	.content .list {
+		height: 84%;
 	}
 	.content .list li span {
 	    font-size: 4px;
+	}
+	.content .add {
+	    padding: 7px 5px;
 	}
 	.content .add input {
 		font-size: 15px;
@@ -279,10 +289,17 @@ h2 {
     	height: 70%;
 	}
 	.content .info {
-		font-size: 22px;
+		font-size: 23px;
+		height: 7%;
+	}
+	.content .list {
+		height: 84%;
 	}
 	.content .list li span {
 	    font-size: 8px;
+	}
+	.content .add {
+	    padding: 8px 5px;
 	}
 	.content .add input {
 		font-size: 17px;
@@ -311,9 +328,16 @@ h2 {
 	}
 	.content .info {
 		font-size: 25px;
+		height: 7%;
+	}
+	.content .list {
+		height: 84%;
 	}
 	.content .list li span {
 	    font-size: 12px;
+	}
+	.content .add {
+	    padding: 9px 5px;
 	}
 	.content .add input {
 		font-size: 20px;
