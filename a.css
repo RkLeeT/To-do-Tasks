@@ -59,8 +59,8 @@ h2 {
 }
 
 .content {
-	width: 50%;
-	height: 75%;
+	width: 30vw;
+    height: 75vh;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 0px 0px 20px 0px black;
@@ -175,8 +175,8 @@ h2 {
 	    width: 100%;
 	}
 	.content {
-	    width: 70%;
-    	height: 55%;
+	    width: 65vw;
+    	height: 65vh;
 	}
 	.content .info {
 		font-size: 16px;
@@ -211,8 +211,8 @@ h2 {
 	    width: 90%;
 	}
 	.content {
-	    width: 65%;
-    	height: 60%;
+	    width: 56vw;
+    	height: 70vh;
 	}
 	.content .info {
 		font-size: 20px;
@@ -247,8 +247,8 @@ h2 {
 	    width: 80%;
 	}
 	.content {
-	    width: 60%;
-    	height: 65%;
+	    width: 47vw;
+    	height: 70vh;
 	}
 	.content .info {
 		font-size: 21px;
@@ -285,8 +285,8 @@ h2 {
 	    width: 70%;
 	}
 	.content {
-	    width: 55%;
-    	height: 70%;
+	    width: 38vw;
+    	height: 70vh;
 	}
 	.content .info {
 		font-size: 23px;
@@ -323,8 +323,8 @@ h2 {
 	    width: 60%;
 	}
 	.content {
-	    width: 50%;
-	    height: 75%;
+        width: 30vw;
+    	height: 75vh;
 	}
 	.content .info {
 		font-size: 25px;
