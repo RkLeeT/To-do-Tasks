@@ -50,8 +50,8 @@ h2 {
 }
 
 .state {
-	width: 60%;
-	height: 100%;
+	width: 60vw;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -157,7 +157,38 @@ h2 {
 	background: #afafaf;
 }
 
+@media only screen and (min-width: 320px) {
 
+	html, body {
+		font-size: 10px;
+	}
+
+	#date {
+		font-size: 18px;
+	}
+
+	.state {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.content {
+		width: 65%;
+		height: 55%;
+	}
+
+	h2 {
+		font: bold 27px fantasy;
+	}
+
+	.content .list li span {
+	    font-size: 1px;
+	}
+
+	.content .add input {
+		font-size: 10px;
+	}
+}
 
 @media only screen and (min-width: 425px) {
 
@@ -166,16 +197,21 @@ h2 {
 	}
 
 	#date {
-		font-size: 30px;
+		font-size: 22px;
 	}
 
 	.state {
-		width: 90%;
-		height: 85%;
+		width: 90vw;
+		height: 100vh;
+	}
+
+	.content {
+		width: 65%;
+		height: 60%;
 	}
 
 	h2 {
-		font: bold 40px fantasy;
+		font: bold 30px fantasy;
 	}
 
 	.content .list li span {
@@ -198,8 +234,13 @@ h2 {
 	}
 
 	.state {
-		width: 80%;
-		height: 90%;
+		width: 80vw;
+		height: 100vh;
+	}
+
+	.content {
+		width: 60%;
+		height: 70%;
 	}
 
 	h2 {
@@ -228,8 +269,13 @@ h2 {
 	}
 
 	.state {
-		width: 70%;
-		height: 95%;
+		width: 70vw;
+		height: 100vh;
+	}
+
+	.content {
+		width: 65%;
+		height: 70%;
 	}
 
 	h2 {
@@ -248,7 +294,7 @@ h2 {
 
 
 
-@media only screen and (min-width: 1204px) {
+@media only screen and (min-width: 1240px) {
 
 	html, body {
 		font-size: 20px;
@@ -259,8 +305,13 @@ h2 {
 	}
 
 	.state {
-		width: 60%;
-		height: 100%;
+		width: 60vw;
+		height: 100vh;
+	}
+
+	.content {
+		width: 50%;
+		height: 70%;
 	}
 
 	h2 {
