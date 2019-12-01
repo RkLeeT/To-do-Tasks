@@ -50,7 +50,7 @@ h2 {
 }
 
 .state {
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -109,7 +109,6 @@ h2 {
 
 .content .list li {
 	position: relative;
-	min-height: 50px;
 	list-style: none;
 	padding: 8px 10px;
 	margin-bottom: 10px;
@@ -157,6 +156,130 @@ h2 {
 	outline: none;
 	background: #afafaf;
 }
+
+
+
+@media only screen and (min-width: 425px) {
+
+	html, body {
+		font-size: 13px;
+	}
+
+	#date {
+		font-size: 30px;
+	}
+
+	.state {
+		width: 90%;
+		height: 85%;
+	}
+
+	h2 {
+		font: bold 40px fantasy;
+	}
+
+	.content .list li span {
+	    font-size: 2px;
+	}
+
+	.content .add input {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (min-width: 708px) {
+
+	html, body {
+		font-size: 15px;
+	}
+
+	#date {
+		font-size: 32px;
+	}
+
+	.state {
+		width: 80%;
+		height: 90%;
+	}
+
+	h2 {
+		font: bold 42px fantasy;
+	}
+
+	.content .list li span {
+	    font-size: 4px;
+	}
+
+	.content .add input {
+		font-size: 15px;
+	}
+
+}
+
+
+@media only screen and (min-width: 912px) {
+
+	html, body {
+		font-size: 17px;
+	}
+
+	#date {
+		font-size: 35px;
+	}
+
+	.state {
+		width: 70%;
+		height: 95%;
+	}
+
+	h2 {
+		font: bold 45px fantasy;
+	}
+
+	.content .list li span {
+	    font-size: 8px;
+	}
+
+	.content .add input {
+		font-size: 17px;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 1204px) {
+
+	html, body {
+		font-size: 20px;
+	}
+
+	#date {
+		font-size: 40px;
+	}
+
+	.state {
+		width: 60%;
+		height: 100%;
+	}
+
+	h2 {
+		font: bold 50px fantasy;
+	}
+
+	.content .list li span {
+	    font-size: 12px;
+	}
+
+	.content .add input {
+		font-size: 20px;
+	}
+
+}
+
+
+
+
 
 
 
