@@ -14,7 +14,7 @@
 }
 
 html, body {
-	font-size: 25px;
+	font-size: 20px;
 	width: 100%;
 	height: 100%;
 }
@@ -24,7 +24,7 @@ html, body {
     top: 0;
     left: 0;
     margin: 20px 20px;
-    font-size: 50px;
+    font-size: 40px;
     font-style: italic;
     font-variant: small-caps;
     color: gray;
@@ -46,12 +46,12 @@ h2 {
 	background-color: #000000;
 	color: transparent;
 	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
-	font: bold 60px fantasy;
+	font: bold 50px fantasy;
 }
 
 .state {
-	width: 60vw;
-	height: 100vh;
+	width: 60%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,7 +60,7 @@ h2 {
 
 .content {
 	width: 50%;
-	height: 70%;
+	height: 75%;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 0px 0px 20px 0px black;
@@ -69,8 +69,8 @@ h2 {
 .content .info {
 	display: flex;
 	justify-content: space-between;
+    height: 7%;
 	padding: 5px 10px;
-	font-size: 25px;
 }
 
 .content .info span {
@@ -97,7 +97,7 @@ h2 {
 
 .content .list {
 	padding: 8px 10px;
-	height: 82%;
+	height: 83%;
 	overflow: auto;
 	border: 1px solid black;
 	background: rgba(0,0,0,0.3);
@@ -132,7 +132,7 @@ h2 {
     position: absolute;
     top: 5px;
     right: 0;
-    font-size: 17px;
+    font-size: 12px;
     padding: 0px 5px;
 }
 
@@ -145,13 +145,14 @@ h2 {
 
 .content .add {
 	/* border: 1px solid black; */
-	padding: 8px 10px;
+	height: 10%;
+	padding: 12px 10px;
 }
 
 .content .add input {
 	width: 100%;
 	padding: 5px 10px;
-	font-size: 25px;
+	font-size: 20px;
 	border: 1px solid black;
 	border-radius: 10px;
 	outline: none;
@@ -167,25 +168,31 @@ h2 {
 	#date {
 		font-size: 18px;
 	}
-	.state {
-		width: 100vw;
-		height: 90vh;
-	}
-	.content {
-		width: 65%;
-		height: 65%;
-	}
 	h2 {
 		font: bold 27px fantasy;
 	}
+	.state {
+	    width: 100%;
+	}
+	.content {
+	    width: 70%;
+    	height: 55%;
+	}
 	.content .info {
 		font-size: 16px;
+		height: 8%;
+	}
+	.content .list {
+		height: 82%;
 	}
 	.content .list li span {
 	    font-size: 1px;
 	}
+	.content .add {
+		padding: 6px 5px;
+	}
 	.content .add input {
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 
@@ -197,19 +204,22 @@ h2 {
 	#date {
 		font-size: 22px;
 	}
-	.state {
-		width: 90vw;
-		height: 95vh;
-	}
-	.content {
-		width: 65%;
-		height: 70%;
-	}
 	h2 {
 		font: bold 30px fantasy;
 	}
+	.state {
+	    width: 90%;
+	}
+	.content {
+	    width: 65%;
+    	height: 60%;
+	}
 	.content .info {
 		font-size: 18px;
+		height: 8%;
+	}
+	.content .list {
+		height: 81%;
 	}
 	.content .list li span {
 	    font-size: 2px;
@@ -227,16 +237,15 @@ h2 {
 	#date {
 		font-size: 32px;
 	}
-	.state {
-		width: 80vw;
-		height: 100vh;
-	}
-	.content {
-		width: 60%;
-		height: 70%;
-	}
 	h2 {
 		font: bold 42px fantasy;
+	}
+	.state {
+	    width: 80%;
+	}
+	.content {
+	    width: 60%;
+    	height: 65%;
 	}
 	.content .info {
 		font-size: 20px;
@@ -259,16 +268,15 @@ h2 {
 	#date {
 		font-size: 35px;
 	}
-	.state {
-		width: 70vw;
-		height: 100vh;
-	}
-	.content {
-		width: 65%;
-		height: 70%;
-	}
 	h2 {
 		font: bold 45px fantasy;
+	}
+	.state {
+	    width: 70%;
+	}
+	.content {
+	    width: 55%;
+    	height: 70%;
 	}
 	.content .info {
 		font-size: 22px;
@@ -291,16 +299,15 @@ h2 {
 	#date {
 		font-size: 40px;
 	}
-	.state {
-		width: 60vw;
-		height: 100vh;
-	}
-	.content {
-		width: 50%;
-		height: 70%;
-	}
 	h2 {
 		font: bold 50px fantasy;
+	}
+	.state {
+	    width: 60%;
+	}
+	.content {
+	    width: 50%;
+	    height: 75%;
 	}
 	.content .info {
 		font-size: 25px;
