@@ -158,38 +158,32 @@ h2 {
 	background: #afafaf;
 }
 
+
 @media only screen and (min-width: 320px) {
 
 	html, body {
 		font-size: 10px;
 	}
-
 	#date {
 		font-size: 18px;
 	}
-
 	.state {
 		width: 100vw;
 		height: 90vh;
 	}
-
 	.content {
 		width: 65%;
 		height: 65%;
 	}
-
 	h2 {
 		font: bold 27px fantasy;
 	}
-
 	.content .info {
 		font-size: 16px;
 	}
-
 	.content .list li span {
 	    font-size: 1px;
 	}
-
 	.content .add input {
 		font-size: 10px;
 	}
@@ -200,33 +194,26 @@ h2 {
 	html, body {
 		font-size: 13px;
 	}
-
 	#date {
 		font-size: 22px;
 	}
-
 	.state {
 		width: 90vw;
 		height: 95vh;
 	}
-
 	.content {
 		width: 65%;
 		height: 70%;
 	}
-
 	h2 {
 		font: bold 30px fantasy;
 	}
-
 	.content .info {
 		font-size: 18px;
 	}
-
 	.content .list li span {
 	    font-size: 2px;
 	}
-
 	.content .add input {
 		font-size: 13px;
 	}
@@ -237,33 +224,26 @@ h2 {
 	html, body {
 		font-size: 15px;
 	}
-
 	#date {
 		font-size: 32px;
 	}
-
 	.state {
 		width: 80vw;
 		height: 100vh;
 	}
-
 	.content {
 		width: 60%;
 		height: 70%;
 	}
-
 	h2 {
 		font: bold 42px fantasy;
 	}
-
 	.content .info {
 		font-size: 20px;
 	}
-
 	.content .list li span {
 	    font-size: 4px;
 	}
-
 	.content .add input {
 		font-size: 15px;
 	}
@@ -276,37 +256,29 @@ h2 {
 	html, body {
 		font-size: 17px;
 	}
-
 	#date {
 		font-size: 35px;
 	}
-
 	.state {
 		width: 70vw;
 		height: 100vh;
 	}
-
 	.content {
 		width: 65%;
 		height: 70%;
 	}
-
 	h2 {
 		font: bold 45px fantasy;
 	}
-
 	.content .info {
 		font-size: 22px;
 	}
-
 	.content .list li span {
 	    font-size: 8px;
 	}
-
 	.content .add input {
 		font-size: 17px;
 	}
-
 }
 
 
@@ -316,37 +288,29 @@ h2 {
 	html, body {
 		font-size: 20px;
 	}
-
 	#date {
 		font-size: 40px;
 	}
-
 	.state {
 		width: 60vw;
 		height: 100vh;
 	}
-
 	.content {
 		width: 50%;
 		height: 70%;
 	}
-
 	h2 {
 		font: bold 50px fantasy;
 	}
-
 	.content .info {
 		font-size: 25px;
 	}
-
 	.content .list li span {
 	    font-size: 12px;
 	}
-
 	.content .add input {
 		font-size: 20px;
 	}
-
 }
 
 
