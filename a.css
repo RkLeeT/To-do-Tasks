@@ -1,0 +1,175 @@
+
+
+:root {
+	--blue: #69adce;
+	--green: #6ebda4;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+html, body {
+	font-size: 25px;
+	width: 100%;
+	height: 100%;
+}
+
+#date {
+	position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 20px;
+    font-size: 50px;
+    font-style: italic;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px black;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+}
+
+h2 {
+    margin-bottom: 10px;
+	-webkit-background-clip: text;
+	background-color: #000000;
+	color: transparent;
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+	font: bold 60px fantasy;
+}
+
+.state {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	width: 50%;
+	height: 70%;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+.content .info {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+}
+
+.content .info span {
+	cursor: pointer;
+}
+
+.content .info .left span {
+    padding: 2px 8px;
+}
+
+.content .info .left span#check i {
+	background: var(--green);
+    border-radius: 50%;
+}
+
+.content .info .left span#times i {
+	background: var(--blue);
+    border-radius: 50%;
+}
+
+/* .content .info .clear-btn {
+	cursor: pointer;
+} */
+
+.content .list {
+	padding: 8px 10px;
+	height: 82%;
+	overflow: auto;
+	border: 1px solid black;
+	background: rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+
+.content .list ul {
+	height: 100%;
+}
+
+.content .list li {
+	position: relative;
+	min-height: 50px;
+	list-style: none;
+	padding: 8px 10px;
+	margin-bottom: 10px;
+    overflow-wrap: break-word;
+	background: var(--blue);
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.content .list li.complete {
+	background: var(--green);
+	text-decoration: line-through;
+    color: dimgrey;
+}
+
+.content .list li span {
+	opacity: 0;
+	color: black;
+	float: right;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+.content .list li:hover span{
+	opacity: 0.5;
+	background: inherit;
+	border-radius: 20px;
+}
+
+
+.content .add {
+	/* border: 1px solid black; */
+	padding: 8px 10px;
+}
+
+.content .add input {
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+	outline: none;
+	background: #afafaf;
+}
+
+
+
+
+
+.list::-webkit-scrollbar {
+  width: .5em;
+}
+ 
+.list::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+ 
+.list::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
